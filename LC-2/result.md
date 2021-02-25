@@ -2,17 +2,17 @@
 
 ## First Task
 
-![image info](../images/second-img/required-done/task_1_1.png)
+![image task_f](task_1_1.png)
 
 ## Done First Task 
 
-![image info](../images/second-img/required-done/done_1.png)
+![image done_1](done_1.png)
 
 ## Second Task
 
-![image info](../images/second-img/required-done/task_2_2.png)
+![image task_s](task_2_2.jpg)
 
 ## Done Second Task
 
-![image info](../images/second-img/required-done/done_2.png)
+![image done_2](done_2.png)
 
