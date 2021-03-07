@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my {
+    margin-top: 200px;
+
+}
+
+/* start container */
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    padding-top: 100px;
+    margin-top: 50px;
+}
+/* end container */
+
+/* start contact */
+.contact {
+    width: 75%;
+    height: 400px;
+    background-color: #7b51eb;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+    font-size: 32px;
+}
+
+.contact h2{
+    font-weight: bold;
+}
+.contact span{
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+/* end contact */
+
+
+/* start form area */
+.form-text{
+    width: 100%;
+    height: 300px;
+    /* background-color: aqua; */
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.contact-area {
+    width: 30%;
+    height: 300px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.form-area {
+    width: 70%;
+    height: 300px;
+    /* background-color: cadetblue; */
+    float: left;
+}
+
+.item {
+    width: 100%;
+    height: 25%;
+    line-height: 1.2;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* .first {
+} */
+
+.item h6{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.item p{
+    color: #77809e;
+    font-size: 18px;
+}
+
+.form-area {
+    overflow: hidden;
+    /* margin:0 2px; */
+}
+
+.my-input{
+    width: 49%;
+    height: 100%;
+    /* background-color: rgb(244, 215, 250); */
+    float: left;
+}
+
+.input-brdr{
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.input-one , .input-tow, .input-three{
+    width: 100%;
+    height: 50px;
+    /* margin: 10px 0; */
+    /* margin-bottom: 30px; */
+    border: 1px solid #eee;
+
+
+}
+.my-input input{
+    display: block;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+    /* height: 50px; */
+    background-color: transparent;
+    padding-left: 20px;
+}
+
+.test-area {
+    width: 49%;
+    height: 100%;
+    /* background-color: rgb(107, 106, 104); */
+    float: right;
+}
+
+.text-area{
+    font-size: 13px;
+    line-height: 22px;
+    color: #999;
+    border: 1px solid #eeeeee;
+    border-radius: 0px;
+    padding: 20px 0 0 20px;
+    height: 50%;
+}
+
+.test-area textarea{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.btn{
+    text-align: right;
+    margin-top: 8px;
+    color: #fff;
+    padding: 20px;
+
+
+}
+
+.btn button{
+    border: none;
+    outline: none;
+    /* background-color: transparent; */
+    background-color: #4b399f;
+    height: 30px;
+    color: #fff;
+    /* padding: 15px; */
+    
+}
+
+/* end form area */
+
+/* start map */
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+/* end map */
+
+/* start footer */
+
+.my-footer {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    
+}
+
+.mr-bottom{
+    margin-bottom: 20px;
+}
+
+/* .footer-logo {
+    margin-bottom: 20px;
+}
+
+.my-footer h4{
+    margin-bottom: 20px;
+} */
+/* end footer */
