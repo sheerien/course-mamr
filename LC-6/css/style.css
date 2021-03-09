@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start general style */
+.mt {
+    margin-top: 100px;
+}
+/* end general style */
+
+/* start container */
+.container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+/* end container */
+
+/* start medical*/
+
+.medical {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+}
+
+.medical-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: aquamarine; */
+}
+
+.medical-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.medical-content {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: aqua; */
+    padding-left: 50px;
+}
+
+.medical-content h2{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    color: #3b3b3b;
+}
+
+.medical-content p{
+    color: #6b6b6b;
+    letter-spacing: 1.4px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.medical-list {
+    width: 100%;
+    height: 70px;
+}
+
+.medical-item{
+    overflow: hidden;
+}
+
+.item-img {
+    float: left;
+    /* display: inline-block; */
+    margin-right: 10px;
+}
+
+.item-content {
+    /* display: inline-block; */
+    float: left;
+    text-align: center;
+    padding-top: 25px;
+    color: #6b6b6b;
+}
+/* end medical*/
+
