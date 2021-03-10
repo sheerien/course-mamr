@@ -50,7 +50,7 @@
 .medical-content h2{
     margin-bottom: 20px;
     letter-spacing: 1px;
-    color: #3b3b3b;
+    color: #494949;
 }
 
 .medical-content p{
@@ -85,3 +85,157 @@
 }
 /* end medical*/
 
+
+/* start middle */
+.middle{
+    width: 100%;
+    height: 300px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+
+.middle-item {
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    
+}
+
+.middle-item img{
+    margin: 15% 0 10% 0;
+
+}
+.middle-item h2{
+    margin-bottom: 15%;
+    color: #469fe4;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.middle-item p{
+    color: #A7A7A7;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+/* end middle */
+
+/* start second */
+
+.second {
+    width: 50%;
+    height: 250px;
+    margin: auto;
+    /* background-color: #469fe4; */
+    overflow: hidden;
+}
+
+.second-item {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.second-item h3{
+    margin-bottom: 5%;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #494949;
+}
+
+.second-item p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #A7A7A7;
+}
+
+/* end second */
+
+/* start last */
+
+.last {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.part-one{
+    width: 33%;
+    height: 100%;
+    float: left;
+    background-color: bisque;
+}
+
+.part-two{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: aquamarine;
+    margin: 0 20px;
+}
+
+.part-three{
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+}
+
+.items {
+    width: 100%;
+    height: 33%;
+    background-color: #fff;
+    /* margin: 2px; */
+    padding: 20px;
+    overflow: hidden;
+}
+
+.item-img{
+    width: 13%;
+    height: 20%;
+    margin-top: 15px;
+    float: left;
+}
+
+.item-text {
+    width: 75%;
+    height: 100%;
+    float: left;
+
+}
+
+.item-text h3 {
+    margin: 15px 0;
+    color: #797979;
+}
+
+.item-text p{
+    color: #A9A9A9;
+    /* letter-spacing: 1px; */
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* end last */
+
+/* .last {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.last-content {
+    width: 30%;
+    height: 30%;
+    
+}
+
+.last-img{
+    float: left;
+}
+
+
+
+.last-text {
+    float: left;
+    margin-left: 20px;
+} */
