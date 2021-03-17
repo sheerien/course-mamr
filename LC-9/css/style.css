@@ -416,12 +416,12 @@ h6 {
     width: 90%;
 }
 
-.icn i{
+.icn i {
     color: #fff;
     background-color: #8e7754;
 }
 
-.show-map{
+.show-map {
     margin-top: 20vh;
     width: 50%;
     height: 90vh;
@@ -437,7 +437,7 @@ h6 {
     background-color: #403d38;
 }
 
-.be-all{
+.be-all {
     overflow: hidden;
 }
 
@@ -448,20 +448,20 @@ h6 {
     padding: 10px;
 }
 
-.be-item-title h4{
+.be-item-title h4 {
     font-weight: 500;
     color: #F6F7F9;
     letter-spacing: 1px;
     margin: 50px 0 30px 0;
 }
 
-.be-item-body{
-    font-size:14px;
+.be-item-body {
+    font-size: 14px;
     font-weight: 200;
     letter-spacing: 1.5px;
     line-height: 1.5;
     color: #969696;
-    
+
 }
 
 .be-item-body .p-one {
@@ -475,18 +475,18 @@ h6 {
 
 }
 
-.be-item-content h6{
+.be-item-content h6 {
     color: #d4dbe0;
     letter-spacing: 1px;
     font-size: 14px;
     margin-bottom: 8px;
 }
 
-.be-item-content:hover h6{
+.be-item-content:hover h6 {
     color: #F6F7F9;
 }
 
-.be-item-content p{
+.be-item-content p {
     color: #969696;
     font-size: 12px;
 }
@@ -495,7 +495,7 @@ h6 {
     list-style: none;
 }
 
-.be-list li{
+.be-list li {
     color: #969696;
     font-size: 14px;
     border-bottom: 1px solid #4a4742;
@@ -503,12 +503,12 @@ h6 {
     margin-bottom: 12px;
 }
 
-.be-list i{
+.be-list i {
     margin-right: 5px;
     font-size: 20px;
 }
 
-.be-list i p{
+.be-list i p {
     font-size: 14px;
     padding-left: 10px;
 }
@@ -516,14 +516,14 @@ h6 {
 /* end before footer */
 
 /* start footer */
-.footer{
+.footer {
     width: 100%;
     height: 40vh;
     background-color: #353330;
     /* overflow: hidden; */
 }
 
-.foot{
+.foot {
     width: 50%;
     height: 100%;
     margin: auto;
@@ -532,17 +532,17 @@ h6 {
     position: relative;
 }
 
-.foot img{
+.foot img {
     margin: 7% 0 5% 0;
 }
 
-.foot p{
+.foot p {
     color: #747472;
     margin-bottom: 3%;
 }
 
 
-.sp-icon{
+.sp-icon {
     display: inline-block;
     text-align: center;
     padding-top: 5px;
@@ -555,7 +555,7 @@ h6 {
     background-color: #484540;
 }
 
-.indcator{
+.indcator {
     float: right;
     margin-right: 12px;
     margin-bottom: 12px;
