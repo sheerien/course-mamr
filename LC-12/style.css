@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* direction: rtl; */
+}
+
+.container {
+    width: 85%;
+    margin: 100px auto;
+    background-color: #eee;
+}
+
+.box{
+    
+    display: flex;
+    /* color: #fff; */
+    /* background-color: #f00; */
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+}
+
+.box div{
+    background-color: #f00;
+    color: #fff;
+}
