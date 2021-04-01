@@ -20,6 +20,13 @@ body{
                     end global roles
 ============================================
 */
+
+/* 
+============================================
+                    start nav role
+============================================
+*/
+
 .nav{
     width: 100%;
     background-color: #fff;
@@ -81,6 +88,23 @@ body{
     text-transform: capitalize;
 }
 
+.nav .nav-list .nav-item:nth-child(4):after{
+    content: "hot";
+    position: absolute;
+    top:-23px;
+    /*left: 2px;
+    */background-color: #f00;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 
 .nav .nav-list .nav-item a{
     text-decoration: none;
@@ -94,14 +118,6 @@ body{
     margin-left: 30px;
     color: #141517;
 }
-
-/* 
-============================================
-                    start nav role
-============================================
-*/
-
-
 
 /* 
 ============================================
