@@ -93,10 +93,10 @@ body{
     position: absolute;
     top:-23px;
     /*left: 2px;
-    */background-color: #f00;
+    */background-color: #FF003C;
     color: #fff;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 6px;
     font-size: 10px;
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -112,6 +112,16 @@ body{
     margin-left: 35px;
     font-size: 18px;
     text-transform: capitalize;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+}
+/* #FF9494 */
+
+.nav .nav-list .nav-item a:hover{
+    color: #FF2020;
 }
 
 .nav .nav-icon i{
