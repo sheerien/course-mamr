@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background-color: aquamarine;
+    background-color: #fff;
 }
 
 .container {
@@ -56,6 +56,13 @@ body {
 
 .btn:hover:before {
     width: 100%;
+}
+
+/* Global Media */
+@media (max-width:767px) {
+    .row{
+        flex-flow: column wrap;
+    }
 }
 
 /* 
@@ -250,7 +257,7 @@ body {
         margin: 15px 0;
     }
 
-    .nav .nav-list .nav-item a{
+    .nav .nav-list .nav-item a {
         color: #F0F0F2;
     }
 
@@ -360,7 +367,7 @@ body {
         -moz-transform: scale(1);
         -ms-transform: scale(1);
         -o-transform: scale(1);
-}
+    }
 
     100% {
         transform: scale(1.1);
@@ -373,16 +380,30 @@ body {
 
 /* start Header Media */
 
-/* start media screen max-width 991px */
+/* start media screen max-width 1024px */
+@media (max-width:1024px) {
+    .header img {
+        width: 30%;
 
-@media (max-width:991px){
-    
-    .header img{
-        display: none;
-        
     }
 
-    .header .header-content{
+    .header .header-content h2 {
+        font-size: 40px;
+    }
+}
+
+/* end media screen max-width 1024px */
+
+/* start media screen max-width 991px */
+
+@media (max-width:991px) {
+
+    .header img {
+        display: none;
+
+    }
+
+    .header .header-content {
         padding: 40px 0;
     }
 
@@ -390,7 +411,7 @@ body {
         font-size: 40px;
     }
 
-    .header .header-content p{
+    .header .header-content p {
         width: 100%;
     }
 }
@@ -399,7 +420,7 @@ body {
 
 /* start media screen max-width 320px */
 
-@media (max-width:360px){
+@media (max-width:360px) {
 
     .header .header-content h2 {
         font-size: 30px;
@@ -414,5 +435,123 @@ body {
 /* 
 ============================================
                     end header role
+============================================
+*/
+/* 
+============================================
+                    start section Arrivals
+============================================
+*/
+
+.arrivals {
+    padding: 150px 0 70px;
+}
+
+.arrivals h2 {
+    font-size: 48px;
+    margin-bottom: 60px;
+    color: #000;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.arrivals .item {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.arrivals .item .img-item {
+    margin-bottom: 23px;
+    overflow: hidden;
+}
+
+.arrivals .item .img-item img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+
+.arrivals .item .img-item:hover img {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.arrivals .item a {
+    text-decoration: none;
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.arrivals .item p {
+    margin-top: 20px;
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* start section arrivals Media */
+
+/* start media screen max-width 1100px */
+@media (max-width:1100px) {
+    .arrivals .item {
+        width: 30%;
+    }
+
+}
+
+/* end media screen max-width 1100px */
+/* start media screen max-width 991px */
+@media (max-width:991px) {
+    .arrivals .row{
+      flex-flow: row wrap;
+    }
+    .arrivals .item{
+      width: 48%;
+    }
+  }
+
+/* end media screen max-width 991px */
+
+/* start media screen max-width 767px */
+@media (max-width:767px) {
+    .arrivals .item {
+        width: 100%;
+    }
+
+    .arrivals .item a{
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+
+}
+
+/* end media screen max-width 767px */
+
+/* start media screen max-width 320px */
+@media (max-width:320px) {
+
+    .arrivals h2 {
+        font-size: 27px;
+    }
+
+}
+
+/* end media screen max-width 320px */
+
+
+/* end section arrivals Media */
+/* 
+============================================
+                    end section Arrivals
 ============================================
 */
